@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // creating the function
+
+        // Math.pow = height, to the power 2
+        function bmiCalculator(weight, height){
+            var bmi = weight / Math.pow(height, 2); 
+            return Math.round(bmi);
+        }
+
+    // if my weight is 65kg and my height is 1.8m, i should be able to call the function like this:
+    var bmi = bmiCalculator(65, 1.8)
+    console.log(bmi);
+    </script>
+</body>
+</html>
